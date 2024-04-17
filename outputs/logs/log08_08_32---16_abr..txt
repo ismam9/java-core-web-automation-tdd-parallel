@@ -1,0 +1,6 @@
+[20_08_32] - No se ha especificado un navegador. Se establecerá el navegador predeterminado como 'chrome'.
+[20_08_32] - No se ha especificado una plataforma. Se establecerá la plataforma predeterminada como 'windows'.
+[20_08_35] - [OK]: Correct access to the URL: https://www.google.com/
+[20_08_36] - [OK]: Correct access to the URL: https://www.google.com/
+[20_08_37] - [OK] : Espera de 2 seg. realizada.
+[20_08_38] - [OK] : Espera de 2 seg. realizada.

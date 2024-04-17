@@ -1,0 +1,12 @@
+[20_04_33] - [OK]: Correct access to the URL: https://www.google.com/
+[20_04_35] - [OK] : Espera de 2 seg. realizada.
+[20_05_10] - [WARNING] : Tiempo de espera superado. Elemento no visible.
+[20_05_11] - No se ha especificado un navegador. Se establecerá el navegador predeterminado como 'chrome'.
+[20_05_11] - No se ha especificado una plataforma. Se establecerá la plataforma predeterminada como 'windows'.
+[20_05_13] - [OK]: Correct access to the URL: https://www.google.com/
+[20_05_15] - [OK] : Espera de 2 seg. realizada.
+[20_05_50] - [WARNING] : Tiempo de espera superado. Elemento no visible.
+[20_05_51] - No se ha especificado un navegador. Se establecerá el navegador predeterminado como 'chrome'.
+[20_05_51] - No se ha especificado una plataforma. Se establecerá la plataforma predeterminada como 'windows'.
+[20_05_53] - [OK]: Correct access to the URL: https://www.google.com/
+[20_05_55] - [OK] : Espera de 2 seg. realizada.

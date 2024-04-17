@@ -1,0 +1,2 @@
+[20_03_49] - [OK]: Correct access to the URL: https://www.google.com/
+[20_03_51] - [OK] : Espera de 2 seg. realizada.
