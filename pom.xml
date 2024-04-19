@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.framework.selenium</groupId>
-    <artifactId>java-core-web-automation-bdd-parallel</artifactId>
+    <artifactId>java-core-web-automation-tdd-parallel</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
