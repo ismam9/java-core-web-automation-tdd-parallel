@@ -10,7 +10,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-import static config.WebDriver.getDriver;
 import static org.testng.AssertJUnit.assertTrue;
 
 /**
@@ -27,7 +26,22 @@ public class WebActions extends WebDriver{
 
     public static String msg;
 
-    public static boolean access(String urlAddress){
+    /**
+     * Este consctructor vacio es para los Tests
+     * */
+    public WebActions() {
+        // Constructor sin argumentos
+    }
+
+    /**
+     * Mientras que este constructor inicializado es para las Pages
+     * */
+    public WebActions(org.openqa.selenium.WebDriver driver) {
+        this.driver = driver;
+        //super(driver)
+    }
+
+    public boolean access(String urlAddress){
         try {
             msg = "[OK]: Correct access to the URL: " + urlAddress;
             driver.get(urlAddress);
@@ -40,7 +54,7 @@ public class WebActions extends WebDriver{
         }
     }
 
-    public static void sendKeys(WebElement elm, String texto) {
+    public void sendKeys(WebElement elm, String texto) {
         try {
             elm.clear();
             elm.sendKeys(texto);
@@ -53,7 +67,7 @@ public class WebActions extends WebDriver{
         }
     }
 
-    public static void click(WebElement elm) {
+    public void click(WebElement elm) {
         try {
             Actions actions = new Actions(driver);
             actions.moveToElement(elm).click().perform();
@@ -66,7 +80,7 @@ public class WebActions extends WebDriver{
         }
     }
 
-    public static void waitAndClick(WebElement elm) {
+    public void waitAndClick(WebElement elm) {
         int espera = 35;
         try {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(espera));
@@ -85,7 +99,7 @@ public class WebActions extends WebDriver{
     /**
      * @param xpath Accion igual que la anterior pero con el String del xpath, en vez del WebElement
      * */
-    public static void waitAndClick(String xpath) {
+    public void waitAndClick(String xpath) {
         int espera = 35;
         try {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(espera));
@@ -109,7 +123,7 @@ public class WebActions extends WebDriver{
      *
      * @param elm Objeto WebElement sobre el cual se quiere esperar su visibilidad.
      */
-    public static void waitForVisibility(WebElement elm) {
+    public void waitForVisibility(WebElement elm) {
         int espera = 35;
         try {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(espera));
@@ -123,7 +137,7 @@ public class WebActions extends WebDriver{
         }
     }
 
-    public static void waitTillPageIsLoaded(){
+    public void waitTillPageIsLoaded(){
         int espera = 35;
         try {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(espera));
@@ -140,7 +154,7 @@ public class WebActions extends WebDriver{
     }
 
 
-    public static void waitSecs(int secs) {
+    public void waitSecs(int secs) {
         try {
             Thread.sleep(secs * 1000L);
             msg = ("[OK] " + ": Espera de " + secs + " seg. realizada.");
@@ -151,7 +165,7 @@ public class WebActions extends WebDriver{
             throw new AssertionError(msg);
         }
     }
-    public static void waitSecsRandomize(int min, int max) {
+    public void waitSecsRandomize(int min, int max) {
         int random = (int) (Math.random() * (max - min) + min);
         try {
             Thread.sleep(random * 1000L);
@@ -165,7 +179,7 @@ public class WebActions extends WebDriver{
     }
 
     /** SCROLLS */
-    public static void scrollTop() {
+    public void scrollTop() {
         try {
             ((JavascriptExecutor) driver).executeScript("window.scrollTo(0, document.body.scrollTop)");
             msg = "[OK][" + Thread.currentThread().getStackTrace()[1].getClassName() + "]" + "["
@@ -186,7 +200,7 @@ public class WebActions extends WebDriver{
     /**
      * Metodo que ejecuta un desplazamiento al tope inferior de la pagina.
      */
-    public static void scrollBottom() {
+    public void scrollBottom() {
         try {
             ((JavascriptExecutor) driver).executeScript("window.scrollBy(0,document.body.scrollHeight)");
             msg = "[OK][" + Thread.currentThread().getStackTrace()[1].getClassName() + "]" + "["
@@ -211,7 +225,7 @@ public class WebActions extends WebDriver{
      * @param elm WebElement hacia el cual se quiere hacer el desplazamiento.
      * //@see https://developer.mozilla.org/es/docs/Web/API/Element/scrollIntoView
      */
-    public static void scrollTo(WebElement elm) {
+    public void scrollTo(WebElement elm) {
         try {
             ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block:'end', behavior:'smooth'});", elm);
             msg = "[OK][" + Thread.currentThread().getStackTrace()[1].getClassName() + "]" + "["
@@ -236,7 +250,7 @@ public class WebActions extends WebDriver{
      *
      * @param xpath Localizador del elemento.
      */
-    public static boolean exists(String xpath) {
+    public boolean exists(String xpath) {
         try {
             int cant = driver.findElements(By.xpath(xpath)).size();
             if (cant == 0) {
@@ -259,7 +273,7 @@ public class WebActions extends WebDriver{
      * Extras de acciones con los elementos
      *
      * */
-    public static void lookupElement(WebElement elm) throws Exception {
+    public void lookupElement(WebElement elm) throws Exception {
         try {
             assertTrue(elm.isDisplayed());
             msg = "[OK][" + WebActions.class.getSimpleName() + "][El elemento " + elm.toString() + " existe]";

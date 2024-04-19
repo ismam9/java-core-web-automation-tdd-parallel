@@ -1,0 +1,43 @@
+[14_41_53] - No se ha especificado un navegador. Se establecerá el navegador predeterminado como 'chrome'.
+[14_41_53] - No se ha especificado una plataforma. Se establecerá la plataforma predeterminada como 'windows'.
+[14_41_56] - [OK]: Correct access to the URL: https://google.com/
+[14_41_57] - [OK]: Correct access to the URL: https://google.com/
+[14_41_58] - [OK] : Espera de 2 seg. realizada.
+[14_41_58] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (1632e38bff35247356ae0ccc1acf70c5)] -> xpath: //div[@aria-live='polite']/following-sibling::span/div/div/div/div[3]] visible
+[14_41_58] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[14_41_58] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[14_41_58] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (1632e38bff35247356ae0ccc1acf70c5)] -> xpath: //div[text()='Aceptar todo']] visible
+[14_41_59] - [OK] : Espera de 2 seg. realizada.
+[14_41_59] - [OK] : Click correcto en: [[ChromeDriver: chrome on windows (1632e38bff35247356ae0ccc1acf70c5)] -> xpath: //div[text()='Aceptar todo']]
+[14_41_59] - [OK]: Accepted Cookies correctly
+[14_41_59] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (1632e38bff35247356ae0ccc1acf70c5)] -> xpath: //*[@title = 'Buscar']] visible
+[14_41_59] - [OK]: Google Input it's visible now
+[14_42_00] - [OK] : Espera de 1 seg. realizada.
+[14_42_01] - [OK] : Espera de 2 seg. realizada.
+[14_42_01] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (ef074bbf8d651f936ccff0f75a9c8a32)] -> xpath: //div[@aria-live='polite']/following-sibling::span/div/div/div/div[3]] visible
+[14_42_01] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[14_42_01] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[14_42_01] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (ef074bbf8d651f936ccff0f75a9c8a32)] -> xpath: //div[text()='Rechazar todo']] visible
+[14_42_01] - [OK] : Click correcto en: [[ChromeDriver: chrome on windows (ef074bbf8d651f936ccff0f75a9c8a32)] -> xpath: //div[text()='Rechazar todo']]
+[14_42_01] - [OK]: Rejected Cookies correctly
+[14_42_01] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (ef074bbf8d651f936ccff0f75a9c8a32)] -> xpath: //*[@title = 'Buscar']] visible
+[14_42_01] - [OK]: Google Input it's visible now
+[14_42_01] - [OK]: Searched on Google Input correctly
+[14_42_02] - [OK] : Espera de 1 seg. realizada.
+[14_42_02] - [OK] : Espera de 1 seg. realizada.
+[14_42_02] - [OK][config.WebActions][scrollTop][scrollTop]: Page was scrolled to the top
+[14_42_02] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (1632e38bff35247356ae0ccc1acf70c5)] -> xpath: //div[@role='navigation']/div/div/div[@jscontroller]] visible
+[14_42_02] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[14_42_02] - [OK]: Searched on Google Input correctly
+[14_42_02] - [OK]: URL's founded: https://clipdrop.co
+[14_42_02] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (1632e38bff35247356ae0ccc1acf70c5)] -> xpath: //cite[@role='text']] visible
+[14_42_02] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[14_42_02] - [OK]: URL's founded: 
+[14_42_03] - [OK] : Espera de 1 seg. realizada.
+[14_42_03] - [OK][config.WebActions][scrollTop][scrollTop]: Page was scrolled to the top
+[14_42_03] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (ef074bbf8d651f936ccff0f75a9c8a32)] -> xpath: //div[@role='navigation']/div/div/div[@jscontroller]] visible
+[14_42_03] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[14_42_03] - [OK]: URL's founded: https://www.selenium.dev
+[14_42_03] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (ef074bbf8d651f936ccff0f75a9c8a32)] -> xpath: //cite[@role='text']] visible
+[14_42_03] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[14_42_03] - [OK]: URL's founded: 

@@ -14,8 +14,8 @@ public class Google_Search extends WebActions{
     @Test(description = "User typicall search")
     public void searchGoogle(){
         //ObjectsGoogle googleObj = new ObjectsGoogle();
-        Google_SearchEngine searchPag = new Google_SearchEngine();
-        Google_ResulstsTodo resultPag = new Google_ResulstsTodo();
+        Google_SearchEngine searchPag = new Google_SearchEngine(driver);
+        Google_ResulstsTodo resultPag = new Google_ResulstsTodo(driver);
 
         try{
             access("https://www.google.com/");

@@ -1,0 +1,25 @@
+[14_41_23] - No se ha especificado un navegador. Se establecerá el navegador predeterminado como 'chrome'.
+[14_41_23] - No se ha especificado una plataforma. Se establecerá la plataforma predeterminada como 'windows'.
+[14_41_26] - [OK]: Correct access to the URL: https://www.stackoverflow.com/
+[14_41_27] - [OK]: Correct access to the URL: https://www.stackoverflow.com/
+[14_41_28] - [OK] : Espera de 2 seg. realizada.
+[14_41_28] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (f383bc43b58d284ebfec50c93bb00d93)] -> xpath: //div[@aria-live='polite']/following-sibling::span/div/div/div/div[3]] visible
+[14_41_28] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[14_41_28] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[14_41_28] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (f383bc43b58d284ebfec50c93bb00d93)] -> xpath: //div[text()='Aceptar todo']] visible
+[14_41_29] - [OK] : Click correcto en: [[ChromeDriver: chrome on windows (f383bc43b58d284ebfec50c93bb00d93)] -> xpath: //div[text()='Aceptar todo']]
+[14_41_29] - [OK]: Accepted Cookies correctly
+[14_41_29] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (f383bc43b58d284ebfec50c93bb00d93)] -> xpath: //*[@title = 'Buscar']] visible
+[14_41_29] - [OK]: Google Input it's visible now
+[14_41_29] - [OK] : Espera de 2 seg. realizada.
+[14_41_30] - [OK] : Espera de 1 seg. realizada.
+[14_41_30] - [OK]: Searched on Google Input correctly
+[14_41_31] - [OK] : Espera de 2 seg. realizada.
+[14_41_31] - [OK] : Espera de 1 seg. realizada.
+[14_41_31] - [OK][config.WebActions][scrollTop][scrollTop]: Page was scrolled to the top
+[14_41_31] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (f383bc43b58d284ebfec50c93bb00d93)] -> xpath: //div[@role='navigation']/div/div/div[@jscontroller]] visible
+[14_41_31] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[14_41_31] - [OK]: URL's founded: https://clipdrop.co
+[14_41_31] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (f383bc43b58d284ebfec50c93bb00d93)] -> xpath: //cite[@role='text']] visible
+[14_41_31] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[14_41_31] - [OK]: URL's founded: 

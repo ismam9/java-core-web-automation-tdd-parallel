@@ -1,0 +1,63 @@
+[14_46_33] - No se ha especificado un navegador. Se establecerá el navegador predeterminado como 'chrome'.
+[14_46_33] - No se ha especificado una plataforma. Se establecerá la plataforma predeterminada como 'windows'.
+[14_46_37] - [OK]: Correct access to the URL: https://www.google.com/
+[14_46_37] - [OK]: Correct access to the URL: https://www.google.com/
+[14_46_39] - [OK] : Espera de 2 seg. realizada.
+[14_46_39] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (59edd87a13c38566efaec06588b36dc7)] -> xpath: //div[@aria-live='polite']/following-sibling::span/div/div/div/div[3]] visible
+[14_46_39] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[14_46_39] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[14_46_39] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (59edd87a13c38566efaec06588b36dc7)] -> xpath: //div[text()='Aceptar todo']] visible
+[14_46_39] - [OK] : Espera de 2 seg. realizada.
+[14_46_39] - [OK] : Click correcto en: [[ChromeDriver: chrome on windows (59edd87a13c38566efaec06588b36dc7)] -> xpath: //div[text()='Aceptar todo']]
+[14_46_40] - [OK]: Accepted Cookies correctly
+[14_46_40] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (59edd87a13c38566efaec06588b36dc7)] -> xpath: //*[@title = 'Buscar']] visible
+[14_46_40] - [OK]: Google Input it's visible now
+[14_46_41] - [OK] : Espera de 1 seg. realizada.
+[14_46_41] - [OK]: Searched on Google Input correctly
+[14_46_41] - [OK] : Espera de 2 seg. realizada.
+[14_46_41] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (addc6169f6971a1b4e81a9d29c864c3b)] -> xpath: //div[@aria-live='polite']/following-sibling::span/div/div/div/div[3]] visible
+[14_46_41] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[14_46_41] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[14_46_41] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (addc6169f6971a1b4e81a9d29c864c3b)] -> xpath: //div[text()='Rechazar todo']] visible
+[14_46_42] - [OK] : Click correcto en: [[ChromeDriver: chrome on windows (addc6169f6971a1b4e81a9d29c864c3b)] -> xpath: //div[text()='Rechazar todo']]
+[14_46_42] - [OK]: Rejected Cookies correctly
+[14_46_42] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (addc6169f6971a1b4e81a9d29c864c3b)] -> xpath: //*[@title = 'Buscar']] visible
+[14_46_42] - [OK]: Google Input it's visible now
+[14_46_42] - [OK] : Espera de 1 seg. realizada.
+[14_46_42] - [OK][config.WebActions][scrollTop][scrollTop]: Page was scrolled to the top
+[14_46_42] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (59edd87a13c38566efaec06588b36dc7)] -> xpath: //div[@role='navigation']/div/div/div[@jscontroller]] visible
+[14_46_42] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[14_46_42] - [OK]: URL's founded: https://clipdrop.co
+[14_46_42] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (59edd87a13c38566efaec06588b36dc7)] -> xpath: //cite[@role='text']] visible
+[14_46_42] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[14_46_42] - [OK]: URL's founded: 
+[14_46_43] - [OK] : Espera de 1 seg. realizada.
+[14_46_43] - [OK]: Searched on Google Input correctly
+[14_46_44] - [OK] : Espera de 1 seg. realizada.
+[14_46_44] - [OK][config.WebActions][scrollTop][scrollTop]: Page was scrolled to the top
+[14_46_44] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (addc6169f6971a1b4e81a9d29c864c3b)] -> xpath: //div[@role='navigation']/div/div/div[@jscontroller]] visible
+[14_46_44] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[14_46_44] - [OK]: URL's founded: https://www.selenium.dev
+[14_46_44] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (addc6169f6971a1b4e81a9d29c864c3b)] -> xpath: //cite[@role='text']] visible
+[14_46_44] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[14_46_44] - [OK]: URL's founded: 
+[14_47_17] - [WARNING] : Tiempo de espera superado. Elemento no visible.
+[14_47_20] - [WARNING] : Tiempo de espera superado. Elemento no visible.
+[14_47_25] - [OK]: Correct access to the URL: https://www.google.com/
+[14_47_27] - [OK] : Espera de 2 seg. realizada.
+[14_47_27] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (177604f5994e9465f6d65f5783532ddf)] -> xpath: //div[@aria-live='polite']/following-sibling::span/div/div/div/div[3]] visible
+[14_47_27] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[14_47_27] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[14_47_27] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (177604f5994e9465f6d65f5783532ddf)] -> xpath: //div[text()='Aceptar todo']] visible
+[14_47_27] - [OK] : Click correcto en: [[ChromeDriver: chrome on windows (177604f5994e9465f6d65f5783532ddf)] -> xpath: //div[text()='Aceptar todo']]
+[14_47_27] - [OK]: Accepted Cookies correctly
+[14_47_27] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (177604f5994e9465f6d65f5783532ddf)] -> xpath: //*[@title = 'Buscar']] visible
+[14_47_27] - [OK]: Google Input it's visible now
+[14_47_28] - [OK] : Espera de 1 seg. realizada.
+[14_47_29] - [OK]: Searched on Google Input correctly
+[14_47_30] - [OK] : Espera de 1 seg. realizada.
+[14_47_30] - [OK][config.WebActions][scrollTop][scrollTop]: Page was scrolled to the top
+[14_47_30] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (177604f5994e9465f6d65f5783532ddf)] -> xpath: //div[@role='navigation']/div/div/div[@jscontroller]] visible
+[14_47_30] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[14_47_30] - [OK]: URL's founded: 
+[14_48_05] - [WARNING] : Tiempo de espera superado. Elemento no visible.

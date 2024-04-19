@@ -13,8 +13,8 @@ public class Google_SearchShopping extends WebActions {
     @Test(description = "User typicall search on Shopping Tab")
     public void searchGoogleShopping(){
         //ObjectsGoogle googleObj = new ObjectsGoogle();
-        Google_SearchEngine searchPag = new Google_SearchEngine();
-        Google_ResulstsTodo resultPag = new Google_ResulstsTodo();
+        Google_SearchEngine searchPag = new Google_SearchEngine(driver);
+        Google_ResulstsTodo resultPag = new Google_ResulstsTodo(driver);
 
         try{
             access("https://www.google.com/");
@@ -25,7 +25,7 @@ public class Google_SearchShopping extends WebActions {
         try {
             searchPag.acceptCookie();
             searchPag.waitForGoogleInput();
-            searchPag.searchGoogleInput("https://clipdrop.co/");
+            searchPag.searchGoogleInput("iphone 3");
             resultPag.printResultsUrlsOnPage();
             resultPag.printResultsTitlesOnPage();
             Log.register("[OK]: Basic Search on Google correctly done");

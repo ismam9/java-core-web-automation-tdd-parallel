@@ -1,0 +1,46 @@
+[12_45_05] - No se ha especificado un navegador. Se establecerá el navegador predeterminado como 'chrome'.
+[12_45_05] - No se ha especificado una plataforma. Se establecerá la plataforma predeterminada como 'windows'.
+[12_45_08] - [OK]: Correct access to the URL: https://www.google.com/
+[12_45_10] - [OK] : Espera de 2 seg. realizada.
+[12_45_10] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (37cf994f85a794abd84924ce7d775bfa)] -> xpath: //div[@aria-live='polite']/following-sibling::span/div/div/div/div[3]] visible
+[12_45_10] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[12_45_10] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[12_45_10] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (37cf994f85a794abd84924ce7d775bfa)] -> xpath: //div[text()='Aceptar todo']] visible
+[12_45_10] - [OK] : Click correcto en: [[ChromeDriver: chrome on windows (37cf994f85a794abd84924ce7d775bfa)] -> xpath: //div[text()='Aceptar todo']]
+[12_45_10] - [OK]: Accepted Cookies correctly
+[12_45_10] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (37cf994f85a794abd84924ce7d775bfa)] -> xpath: //*[@title = 'Buscar']] visible
+[12_45_10] - [OK]: Google Input it's visible now
+[12_45_11] - [OK] : Espera de 1 seg. realizada.
+[12_45_12] - [OK]: Searched on Google Input correctly
+[12_45_13] - [OK] : Espera de 1 seg. realizada.
+[12_45_13] - [OK][config.WebActions][scrollTop][scrollTop]: Page was scrolled to the top
+[12_45_13] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (37cf994f85a794abd84924ce7d775bfa)] -> xpath: //div[@role='navigation']/div/div/div[@jscontroller]] visible
+[12_45_13] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[12_45_13] - [OK]: URL's founded: https://clipdrop.co
+[12_45_13] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (37cf994f85a794abd84924ce7d775bfa)] -> xpath: //cite[@role='text']] visible
+[12_45_13] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[12_45_13] - [OK]: URL's founded: 
+[12_45_48] - [WARNING] : Tiempo de espera superado. Elemento no visible.
+[12_45_50] - No se ha especificado un navegador. Se establecerá el navegador predeterminado como 'chrome'.
+[12_45_50] - No se ha especificado una plataforma. Se establecerá la plataforma predeterminada como 'windows'.
+[12_45_52] - [OK]: Correct access to the URL: https://www.google.com/
+[12_45_54] - [OK] : Espera de 2 seg. realizada.
+[12_45_56] - [OK] : Espera de 2 seg. realizada.
+[12_45_56] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (676330229be0b0bc4b35c7860d9bd89f)] -> xpath: //div[@aria-live='polite']/following-sibling::span/div/div/div/div[3]] visible
+[12_45_56] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[12_45_57] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[12_45_57] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (676330229be0b0bc4b35c7860d9bd89f)] -> xpath: //div[text()='Rechazar todo']] visible
+[12_45_57] - [OK] : Click correcto en: [[ChromeDriver: chrome on windows (676330229be0b0bc4b35c7860d9bd89f)] -> xpath: //div[text()='Rechazar todo']]
+[12_45_57] - [OK]: Rejected Cookies correctly
+[12_45_57] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (676330229be0b0bc4b35c7860d9bd89f)] -> xpath: //*[@title = 'Buscar']] visible
+[12_45_57] - [OK]: Google Input it's visible now
+[12_45_58] - [OK] : Espera de 1 seg. realizada.
+[12_45_58] - [OK]: Searched on Google Input correctly
+[12_45_59] - [OK] : Espera de 1 seg. realizada.
+[12_45_59] - [OK][config.WebActions][scrollTop][scrollTop]: Page was scrolled to the top
+[12_45_59] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (676330229be0b0bc4b35c7860d9bd89f)] -> xpath: //div[@role='navigation']/div/div/div[@jscontroller]] visible
+[12_45_59] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[12_45_59] - [OK]: URL's founded: https://www.selenium.dev
+[12_45_59] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (676330229be0b0bc4b35c7860d9bd89f)] -> xpath: //cite[@role='text']] visible
+[12_46_00] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[12_46_00] - [OK]: URL's founded: 

@@ -1,0 +1,22 @@
+[12_48_51] - No se ha especificado un navegador. Se establecerá el navegador predeterminado como 'chrome'.
+[12_48_51] - No se ha especificado una plataforma. Se establecerá la plataforma predeterminada como 'windows'.
+[12_48_54] - [OK]: Correct access to the URL: https://www.google.com/
+[12_48_56] - [OK] : Espera de 2 seg. realizada.
+[12_48_56] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (05d5fda0fd39803d4b287d4dfc551c54)] -> xpath: //div[@aria-live='polite']/following-sibling::span/div/div/div/div[3]] visible
+[12_48_56] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[12_48_56] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[12_48_56] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (05d5fda0fd39803d4b287d4dfc551c54)] -> xpath: //div[text()='Aceptar todo']] visible
+[12_48_57] - [OK] : Click correcto en: [[ChromeDriver: chrome on windows (05d5fda0fd39803d4b287d4dfc551c54)] -> xpath: //div[text()='Aceptar todo']]
+[12_48_57] - [OK]: Accepted Cookies correctly
+[12_48_57] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (05d5fda0fd39803d4b287d4dfc551c54)] -> xpath: //*[@title = 'Buscar']] visible
+[12_48_57] - [OK]: Google Input it's visible now
+[12_48_58] - [OK] : Espera de 1 seg. realizada.
+[12_48_58] - [OK]: Searched on Google Input correctly
+[12_48_59] - [OK] : Espera de 1 seg. realizada.
+[12_48_59] - [OK][config.WebActions][scrollTop][scrollTop]: Page was scrolled to the top
+[12_48_59] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (05d5fda0fd39803d4b287d4dfc551c54)] -> xpath: //div[@role='navigation']/div/div/div[@jscontroller]] visible
+[12_48_59] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[12_48_59] - [OK]: URL's founded: https://clipdrop.co
+[12_48_59] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (05d5fda0fd39803d4b287d4dfc551c54)] -> xpath: //cite[@role='text']] visible
+[12_49_00] - [OK][config.WebActions][scrollTo][scrollTo]: Page was scrolled to the element
+[12_49_00] - [OK]: URL's founded: 

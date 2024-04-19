@@ -1,0 +1,2 @@
+[14_13_52] - No se ha especificado un navegador. Se establecerá el navegador predeterminado como 'chrome'.
+[14_13_52] - No se ha especificado una plataforma. Se establecerá la plataforma predeterminada como 'windows'.

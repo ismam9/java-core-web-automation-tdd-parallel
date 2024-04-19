@@ -1,20 +1,24 @@
 package webElements;
 
-import config.WebDriver;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class ObjectsGoogle extends WebDriver{
-	
-	 public ObjectsGoogle() {
-	        PageFactory.initElements(driver, this);
-	 }  
-	 
-	 // COOKIES GOOGLE.COM
-	 @FindBy(xpath = "//input[@title = 'Buscar']")
+public class ObjectsGoogle{
+
+	private WebDriver driver; // Referencia al driver
+
+	// Constructor que recibe el driver como argumento
+	public ObjectsGoogle(org.openqa.selenium.WebDriver driver) {
+		this.driver = driver; // Asigna el driver recibido al atributo de la clase
+		PageFactory.initElements(driver, this); // Inicializa los elementos de la página
+	}
+
+	// COOKIES GOOGLE.COM
+	 @FindBy(xpath = "//div[@aria-live='polite']/following-sibling::span/div/div/div/div[3]")
 	 public WebElement ES_MODAL_COOKIES;
 	 @FindBy(xpath = "//div[text()='Aceptar todo']")
 	 public WebElement ES_MODAL_BTN_ACEPTARTODO;

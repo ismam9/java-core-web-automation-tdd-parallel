@@ -1,0 +1,15 @@
+[14_45_32] - No se ha especificado un navegador. Se establecerá el navegador predeterminado como 'chrome'.
+[14_45_32] - No se ha especificado una plataforma. Se establecerá la plataforma predeterminada como 'windows'.
+[14_45_35] - [OK]: Correct access to the URL: https://google.com/
+[14_45_36] - [OK]: Correct access to the URL: https://google.com/
+[14_45_37] - [OK] : Espera de 2 seg. realizada.
+[14_45_37] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (6973376a85628692d64688a5a436c567)] -> xpath: //div[@aria-live='polite']/following-sibling::span/div/div/div/div[3]] visible
+[14_45_37] - [ERROR][config.WebActions][scrollTo][scrollTo]: Page wasn't scrolled to the element: null
+[14_45_38] - [OK] : Espera de 2 seg. realizada.
+[14_45_40] - [OK] : Espera de 2 seg. realizada.
+[14_45_40] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (607006d1092343541f275a175cec1aac)] -> xpath: //div[@aria-live='polite']/following-sibling::span/div/div/div/div[3]] visible
+[14_45_40] - [ERROR][config.WebActions][scrollTo][scrollTo]: Page wasn't scrolled to the element: null
+[14_45_44] - [OK]: Correct access to the URL: https://www.google.com/
+[14_45_46] - [OK] : Espera de 2 seg. realizada.
+[14_45_46] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on windows (93d2dea099b23d0ceaf6ecb65accb2d2)] -> xpath: //div[@aria-live='polite']/following-sibling::span/div/div/div/div[3]] visible
+[14_45_46] - [ERROR][config.WebActions][scrollTo][scrollTo]: Page wasn't scrolled to the element: null

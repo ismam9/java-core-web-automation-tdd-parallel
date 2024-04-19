@@ -19,21 +19,21 @@ import java.util.List;
 
 public class WebDriver {
 
-    private static final Log log = new Log();
-    private static final LoadProjectProperties projectProperties = new LoadProjectProperties();
+    private final Log log = new Log();
+    private final LoadProjectProperties projectProperties = new LoadProjectProperties();
 
-    protected static final String CHROME_DRIVER_PATH = "driver/chromedriver.exe";
+    protected final String CHROME_DRIVER_PATH = "driver/chromedriver.exe";
     //protected static final String FIREFOX_DRIVER_PATH = "driver/geckodriver.exe";
     protected static final String EDGE_DRIVER_PATH = "driver/msedgedriver.exe";
 
-    public static org.openqa.selenium.WebDriver driver;
-    public static org.openqa.selenium.WebDriver getDriver() {
+    public org.openqa.selenium.WebDriver driver;
+    public org.openqa.selenium.WebDriver getDriver() {
         return driver;
     }
 
     @BeforeMethod
     @Parameters({"browser", "plaftorm"})
-    public static void setupDriver(String browser, String platform) {
+    public void setupDriver(String browser, String platform) {
         LoadProjectProperties.configureBrowserAndPlatform(browser, platform); // Utiliza las propiedades configuradas
 
         switch (LoadProjectProperties.selectedBrowser.toLowerCase()) {
@@ -62,7 +62,7 @@ public class WebDriver {
         }
     }
 
-    private static void setupChromeDriver() {
+    private void setupChromeDriver() {
         System.setProperty("webdriver.chrome.driver", CHROME_DRIVER_PATH);
         //Log.register("System Properties: "+ String.valueOf(System.getProperties()));
 
@@ -92,7 +92,7 @@ public class WebDriver {
      * @Firefox We dow no include firefox-gecko driver for this one.
      * We are Testing the Automatic Download :)
      * */
-    private static void setupFirefoxDriver() {
+    private void setupFirefoxDriver() {
         //System.setProperty("webdriver.gecko.driver", FIREFOX_DRIVER_PATH);
 
         // OPTIONS
@@ -106,7 +106,7 @@ public class WebDriver {
         driver = new FirefoxDriver(options);
     }
 
-    private static void setupEdgeDriver() {
+    private void setupEdgeDriver() {
         System.setProperty("webdriver.msedge.driver", EDGE_DRIVER_PATH);
 
         // OPTIONS
@@ -127,14 +127,14 @@ public class WebDriver {
      * Método que finaliza la ejecución del driver y escribe el reporte.
      */
     @AfterMethod
-    public static void tearDown() {
+    public void tearDown() {
         if (driver != null) {
             driver.quit();
         }
     }
 
     @AfterSuite
-    public static void genReporQuitDriver() {
+    public void genReporQuitDriver() {
         if (driver != null) {
             try {
                 driver.quit();
