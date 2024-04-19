@@ -10,7 +10,7 @@ import webElements.ObjectsGoogle;
 import static org.testng.AssertJUnit.fail;
 
 public class Google_Search extends WebActions{
-
+    
     @Test(description = "User typicall search")
     public void searchGoogle(){
         //ObjectsGoogle googleObj = new ObjectsGoogle();

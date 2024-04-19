@@ -18,10 +18,6 @@ import java.io.File;
 import java.util.List;
 
 public class WebDriver {
-
-    private final Log log = new Log();
-    private final LoadProjectProperties projectProperties = new LoadProjectProperties();
-
     protected final String CHROME_DRIVER_PATH = "driver/chromedriver.exe";
     //protected static final String FIREFOX_DRIVER_PATH = "driver/geckodriver.exe";
     protected static final String EDGE_DRIVER_PATH = "driver/msedgedriver.exe";
@@ -31,10 +27,11 @@ public class WebDriver {
         return driver;
     }
 
+
     @BeforeMethod
     @Parameters({"browser", "plaftorm"})
-    public void setupDriver(String browser, String platform) {
-        LoadProjectProperties.configureBrowserAndPlatform(browser, platform); // Utiliza las propiedades configuradas
+    public void setupDriver(String browser, String platform){
+        LoadProjectProperties.configureBrowserAndPlatform(browser, platform);
 
         switch (LoadProjectProperties.selectedBrowser.toLowerCase()) {
             case "chrome":
@@ -58,7 +55,7 @@ public class WebDriver {
             case "linux":
                 break;
             default:
-                throw new IllegalArgumentException("Unsupported plaform: " + browser);
+                throw new IllegalArgumentException("Unsupported plaform: " + platform);
         }
     }
 
@@ -133,7 +130,7 @@ public class WebDriver {
         }
     }
 
-    @AfterSuite
+    /*@AfterSuite
     public void genReporQuitDriver() {
         if (driver != null) {
             try {
@@ -142,7 +139,7 @@ public class WebDriver {
                 ex.printStackTrace();
             }
         }
-    }
+    }*/
 
     /**
      * Método que convierte un archivo de imagen en una cadena de Base64.

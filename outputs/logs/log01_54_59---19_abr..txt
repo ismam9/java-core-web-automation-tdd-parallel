@@ -1,8 +1,0 @@
-[13_55_06] - No se ha especificado un navegador. Se establecerá el navegador predeterminado como 'chrome'.
-[13_55_06] - No se ha especificado una plataforma. Se establecerá la plataforma predeterminada como 'windows'.
-[13_57_48] - [OK]: Correct access to the URL: https://www.google.com/
-[14_04_04] - [OK] : Espera de 2 seg. realizada.
-[14_04_32] - [WARNING] : Tiempo de espera superado. Elemento no visible.
-[14_04_46] - No se ha especificado un navegador. Se establecerá el navegador predeterminado como 'chrome'.
-[14_04_46] - No se ha especificado una plataforma. Se establecerá la plataforma predeterminada como 'windows'.
-[14_05_27] - [OK]: Correct access to the URL: https://www.stackoverflow.com/

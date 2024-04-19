@@ -7,11 +7,8 @@ import java.util.Arrays;
 import java.util.List;
 
 public class LoadProjectProperties {
-    private static final Log log = new Log();
-
     public static String selectedBrowser;
     public static String selectedPlatform;
-
 
     public static boolean isValidBrowser(String browser) {
         List<String> validBrowsers = Arrays.asList("chrome", "firefox", "edge");
@@ -29,7 +26,7 @@ public class LoadProjectProperties {
 
         if (selectedBrowser == null || selectedBrowser.isEmpty()) {
             selectedBrowser = "chrome"; // Valor predeterminado si no se especifica el navegador
-            log.register("No se ha especificado un navegador. Se establecerá el navegador predeterminado como 'chrome'.");
+            System.out.println("No se ha especificado un navegador. Se establecerá el navegador predeterminado como 'chrome'.");
         }
 
         if (!isValidBrowser(selectedBrowser)) {
@@ -38,7 +35,7 @@ public class LoadProjectProperties {
 
         if (selectedPlatform == null || selectedPlatform.isEmpty()) {
             selectedPlatform = "windows"; // Valor predeterminado si no se especifica la plataforma
-            log.register("No se ha especificado una plataforma. Se establecerá la plataforma predeterminada como 'windows'.");
+            System.out.println("No se ha especificado una plataforma. Se establecerá la plataforma predeterminada como 'windows'.");
         }
 
         if (!isValidPlatform(selectedPlatform)) {

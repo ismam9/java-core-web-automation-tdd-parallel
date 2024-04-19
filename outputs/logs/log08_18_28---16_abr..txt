@@ -1,6 +1,0 @@
-[20_18_28] - No se ha especificado un navegador. Se establecerá el navegador predeterminado como 'chrome'.
-[20_18_28] - No se ha especificado una plataforma. Se establecerá la plataforma predeterminada como 'windows'.
-[20_18_32] - [OK]: Correct access to the URL: https://www.google.com/
-[20_18_32] - [OK]: Correct access to the URL: https://www.google.com/
-[20_18_34] - [OK] : Espera de 2 seg. realizada.
-[20_18_34] - [OK] : Espera de 2 seg. realizada.

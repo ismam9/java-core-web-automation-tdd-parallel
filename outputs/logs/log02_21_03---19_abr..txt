@@ -1,2 +1,0 @@
-[14_21_03] - No se ha especificado un navegador. Se establecerá el navegador predeterminado como 'chrome'.
-[14_21_03] - No se ha especificado una plataforma. Se establecerá la plataforma predeterminada como 'windows'.

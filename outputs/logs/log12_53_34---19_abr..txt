@@ -1,3 +1,0 @@
-[12_53_34] - No se ha especificado un navegador. Se establecerá el navegador predeterminado como 'chrome'.
-[12_53_34] - No se ha especificado una plataforma. Se establecerá la plataforma predeterminada como 'windows'.
-[12_53_39] - [OK]: Correct access to the URL: https://www.google.com/
